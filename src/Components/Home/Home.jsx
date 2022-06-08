@@ -27,12 +27,7 @@ const Home = () => {
 
 
             <Flex >
-                {/* <Grid templateColumns='repeat(2, 1fr)' gap={10}>
-                    <GridItem w="150%" marginLeft="-300px"><Image src={imgYo} h="350" /></GridItem>
-                    <GridItem w="200%">
-                        <Text fontFamily='Shadows Into Light' color='brand.letOscur' fontSize='30' mb='-200' >Soy Alfredo Velázquez Juárez.<br /><br />Mi camino a la programación no ha sido fácil, pero siempre intento superarme y dar lo mejor de mí en cada momento de mi vida. </Text>
-                    </GridItem>
-                </Grid> */}
+
                 <Box bg="brand.letOscur" w="100%" h="800px" display="grid" placeContent="center">
                     <Image src={imgYo} h="350" />
                 </Box>
@@ -46,7 +41,7 @@ const Home = () => {
 
             <Box bg="brand.secundary" w="100%" p={400}>
                 <Text fontSize='6xl' fontFamily='Shadows Into Light' color='white' letterSpacing="12px" >Habilidades</Text>
-                <Grid templateColumns="repeat(4, 1fr)" gap={6} justifyContent= "center" >
+                <Grid templateColumns="repeat(4, 1fr)" gap={6} justifyContent="center" >
                     <GridItem w="150px" m="80px" >
                         <Image src={cardHtml} />
                         <Box>
@@ -121,7 +116,7 @@ const Home = () => {
             </Box>
 
             <Box bg="brand.letOscur" w="100%" p={400}>
-                {/* <Text fontFamily='Shadows Into Light' color='brand.letOscur' fontSize='60' mb='-200' >Un genio es 10% talento y 90% esfuerzo.</Text> */}
+              
                 <Flex mt='-300px' ml={-59}>
                     <Image w='16' h='16' src={cardGit} />
                     <Spacer mr={3} />
@@ -158,7 +153,6 @@ const Home = () => {
             <Box bg="brand.primary" w="100%" p={400}>
                 <Text fontFamily='Shadows Into Light' color='brand.letOscur' fontSize='60' mb='-200' >Un genio es 10% talento y 90% esfuerzo.</Text>
             </Box>
-
 
         </div>
     )
