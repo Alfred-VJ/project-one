@@ -30,8 +30,8 @@ const Home = () => {
 
             <Flex >
 
-                <Box bg="brand.letOscur" w="100%" h="800px" display="grid" placeContent="center">
-                    <Image src={imgYo} h="350" />
+                <Box bg="brand.letOscur" w="100%" h="800px" display="grid" placeContent="center" >
+                    <Image src={imgYo} h="350" borderRadius="5px"  />
                 </Box>
 
                 <Box bg="brand.resalt" w="100%" h="800px" display="grid" placeContent="center">
