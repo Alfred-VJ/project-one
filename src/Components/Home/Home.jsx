@@ -172,7 +172,7 @@ const Home = () => {
             </Box>
 
 
-            <Box bg="brand.primary" w="100%" p={400}>
+            <Box bg="brand.primary" w="100%" pt={350} pb={370}>
                 <Text fontFamily='Shadows Into Light' color='brand.letOscur' fontSize='60' >Un genio es 10% talento y 90% esfuerzo.</Text>
             </Box>
 
