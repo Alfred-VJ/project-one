@@ -23,20 +23,22 @@ const Footer = () => {
                 </a>
 
                 <a href='https://www.linkedin.com/in/jos%C3%A9-alfredo-vel%C3%A1zquez-ju%C3%A1rez-30b827232/' target="_blank">
-                <IconButton bg='brand.GT' mr={1} icon={<ImLinkedin />} fontSize='30' color='brand.LN' />
+                    <IconButton bg='brand.GT' mr={1} icon={<ImLinkedin />} fontSize='30' color='brand.LN' />
                 </a>
 
                 <a href='https://github.com/Alfred-VJ' target="_blank">
-                <IconButton bg='brand.GT' mr={1} icon={<AiFillGithub />} fontSize='30' color='brand.HTML' />
+                    <IconButton bg='brand.GT' mr={1} icon={<AiFillGithub />} fontSize='30' color='brand.HTML' />
                 </a>
 
                 <a href='https://twitter.com/JosAlfredoVelz8' target="_blank">
-                <IconButton bg='brand.GT' mr={1} icon={<ImTwitter />} fontSize='30' color='brand.TW' />
+                    <IconButton bg='brand.GT' mr={1} icon={<ImTwitter />} fontSize='30' color='brand.TW' />
                 </a>
             </Flex>
             <Flex justifyContent="center">
                 <Box mt={5}>
                     <Text color="white" >Mi camino de programador es un canal creado por José Alfredo Velázquez Juárez.</Text>
+                    <Spacer />
+                    <Text color="white">Puedes seguirme en cualquiera de mis redes o mandarme un Correo al siguiente email:</Text>
                     <Spacer />
                     <Text color="white" >micaminodeprogramador@gmail.com</Text>
                 </Box>

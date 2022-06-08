@@ -151,7 +151,7 @@ const Home = () => {
 
 
             <Box bg="brand.primary" w="100%" p={400}>
-                <Text fontFamily='Shadows Into Light' color='brand.letOscur' fontSize='60' mb='-200' >Un genio es 10% talento y 90% esfuerzo.</Text>
+                <Text fontFamily='Shadows Into Light' color='brand.letOscur' fontSize='60' >Un genio es 10% talento y 90% esfuerzo.</Text>
             </Box>
 
         </div>
