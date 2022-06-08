@@ -19,8 +19,8 @@ const Home = () => {
 
             <Box bg="brand.primary" w="100%" pt={200} pb={300} >
                 <Box >
-                <Text fontSize="6xl" fontWeight={600} fontFamily='Shadows Into Light' color='brand.letOscur' letterSpacing='3px' noOfLines={1} >MI CAMINO DE PROGRAMADOR;</Text>
-                <Image w={1000} ml="auto" mr="auto" mt="-150px" src={img} />
+                    <Text fontSize="6xl" fontWeight={600} fontFamily='Shadows Into Light' color='brand.letOscur' letterSpacing='3px' noOfLines={1} >MI CAMINO DE PROGRAMADOR;</Text>
+                    <Image w={1000} ml="auto" mr="auto" mt="-150px" src={img} />
                 </Box>
 
                 <Text fontFamily='Shadows Into Light' color='brand.letOscur' fontSize='50' >"El esfuerzo no sirve para nada si no crees en ti mismo".</Text>
@@ -31,7 +31,7 @@ const Home = () => {
             <Flex >
 
                 <Box bg="brand.letOscur" w="100%" h="800px" display="grid" placeContent="center" >
-                    <Image src={imgYo} h="350" borderRadius="5px"  />
+                    <Image src={imgYo} h="350" borderRadius="5px" />
                 </Box>
 
                 <Box bg="brand.resalt" w="100%" h="800px" display="grid" placeContent="center">
@@ -44,8 +44,8 @@ const Home = () => {
             <Box bg="brand.secundary" w="100%" pt={120} pb={250} display="grid" placeContent="center" >
                 <Text fontSize='6xl' fontFamily='Shadows Into Light' color='white' letterSpacing="12px" pb={100} >Habilidades</Text>
                 <Grid templateColumns="repeat(4, 1fr)" gap={12} justifyContent="center" >
-                    <GridItem w="250px" h="420px"  borderRadius="10px" 
-                     boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
+                    <GridItem w="250px" h="420px" borderRadius="10px"
+                        boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
                     >
                         <Image pl="50px" pr="50px" src={cardHtml} />
                         <Box >
@@ -53,8 +53,8 @@ const Home = () => {
                             <Text w="230px" mt="25px" fontFamily='Shadows Into Light' color='white' fontSize='20' mr="auto" ml="auto" >Esta fue la primera tecnología que aprendí cuando quise convertirme en desarrollador web.</Text>
                         </Box>
                     </GridItem>
-                      <GridItem w="250px" h="420px"  borderRadius="10px" 
-                     boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
+                    <GridItem w="250px" h="420px" borderRadius="10px"
+                        boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
                     >
                         <Image pl="50px" pr="50px" src={cardCss} />
                         <Box>
@@ -62,8 +62,8 @@ const Home = () => {
                             <Text w="230px" mt="25px" fontFamily='Shadows Into Light' color='white' fontSize='20' mr="auto" ml="auto" >La tecnología más divertida cuando la aprendí, ya hace casi dos años que la conozco.</Text>
                         </Box>
                     </GridItem>
-                      <GridItem w="250px" h="420px"  borderRadius="10px" 
-                     boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
+                    <GridItem w="250px" h="420px" borderRadius="10px"
+                        boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
                     >
                         <Image pl="50px" pr="50px" src={cardJs} />
                         <Box>
@@ -71,8 +71,8 @@ const Home = () => {
                             <Text w="230px" mt="25px" fontFamily='Shadows Into Light' color='white' fontSize='20' mr="auto" ml="auto" >Cuando comparé este lenguaje con otros, pensé que JS era un lenguaje extraño, pero ahora lo amo.</Text>
                         </Box>
                     </GridItem>
-                      <GridItem w="250px" h="420px"  borderRadius="10px" 
-                     boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
+                    <GridItem w="250px" h="420px" borderRadius="10px"
+                        boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
                     >
                         <Image pl="50px" pr="50px" src={cardNodeJs} />
                         <Box>
@@ -80,8 +80,8 @@ const Home = () => {
                             <Text w="230px" mt="25px" fontFamily='Shadows Into Light' color='white' fontSize='20' mr="auto" ml="auto" >Entorno que empecé a utilizar sin saber que éra, con el tiempo fui entendiendo lo que era y su importancia en el desarrollo.</Text>
                         </Box>
                     </GridItem>
-                      <GridItem w="250px" h="420px"  borderRadius="10px" 
-                     boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
+                    <GridItem w="250px" h="420px" borderRadius="10px"
+                        boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
                     >
                         <Image pl="50px" pr="50px" src={cardPostgresql} />
                         <Box>
@@ -89,8 +89,8 @@ const Home = () => {
                             <Text w="230px" mt="25px" fontFamily='Shadows Into Light' color='white' fontSize='20' mr="auto" ml="auto" >Creo que fue el primer sistema que aprendí en serio para gestionar un base de datos, aún tengo mucho que aprender, así que Máximo Esfuerzo.</Text>
                         </Box>
                     </GridItem>
-                      <GridItem w="250px" h="420px"  borderRadius="10px" 
-                     boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
+                    <GridItem w="250px" h="420px" borderRadius="10px"
+                        boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
                     >
                         <Image pl="50px" pr="50px" src={cardSequelize} />
                         <Box>
@@ -98,8 +98,8 @@ const Home = () => {
                             <Text w="230px" mt="25px" fontFamily='Shadows Into Light' color='white' fontSize='20' mr="auto" ml="auto" >Este OMR hizo que fuera más fácil para mí la parte del BackEnd a la hora de crear aplicaciones WEB.</Text>
                         </Box>
                     </GridItem>
-                      <GridItem w="250px" h="420px"  borderRadius="10px" 
-                     boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
+                    <GridItem w="250px" h="420px" borderRadius="10px"
+                        boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
                     >
                         <Image pl="50px" pr="50px" src={cardReact} />
                         <Box>
@@ -107,8 +107,8 @@ const Home = () => {
                             <Text w="230px" mt="25px" fontFamily='Shadows Into Light' color='white' fontSize='20' mr="auto" ml="auto" >Que librería tan genial, al principio me costó, pero ahora no dejo de usarla y aprender más de ella.</Text>
                         </Box>
                     </GridItem>
-                      <GridItem w="250px" h="420px"  borderRadius="10px" 
-                     boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
+                    <GridItem w="250px" h="420px" borderRadius="10px"
+                        boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
                     >
                         <Image pl="50px" pr="50px" src={cardRedux} />
                         <Box>
@@ -116,8 +116,8 @@ const Home = () => {
                             <Text w="230px" mt="25px" fontFamily='Shadows Into Light' color='white' fontSize='20' mr="auto" ml="auto" >Herramienta que para mí es indispensable para trabajar en proyectos de React sobre todo si son de mediana a gran escala.</Text>
                         </Box>
                     </GridItem>
-                      <GridItem w="250px" h="420px"  borderRadius="10px" 
-                     boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
+                    <GridItem w="250px" h="420px" borderRadius="10px"
+                        boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
                     >
                         <Image pl="50px" pr="50px" src={cardGitHub} />
                         <Box>
@@ -125,8 +125,8 @@ const Home = () => {
                             <Text w="230px" mt="25px" fontFamily='Shadows Into Light' color='white' fontSize='20' mr="auto" ml="auto" >Cada vez veo más valioso este servicio, aprender esta u otra herramienta parecida es de lo más importante para un desarrollador.</Text>
                         </Box>
                     </GridItem>
-                      <GridItem w="250px" h="420px"  borderRadius="10px" 
-                     boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
+                    <GridItem w="250px" h="420px" borderRadius="10px"
+                        boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
                     >
                         <Image pl="50px" pr="50px" src={cardGit} />
                         <Box>
@@ -138,26 +138,26 @@ const Home = () => {
             </Box>
 
             <Box bg="brand.letOscur" w="100%" pt={100} pb={300} display="grid" placeContent="center" >
-              
+
                 <Flex placeContent="center" >
                     <Image w='16' h='16' src={cardGit} />
-                    
+
                     <Image w='16' h='16' src={cardJs} />
-                    
+
                     <Image w='16' h='16' src={cardHtml} />
-                   
+
                     <Image w='16' h='16' src={cardCss} />
-                    
+
                     <Image w='16' h='16' src={cardGitHub} />
-                    
+
                     <Image w='16' h='16' src={cardSequelize} />
-                    
+
                     <Image w='16' h='16' src={cardReact} />
-                    
+
                     <Image w='16' h='16' src={cardRedux} />
-                    
+
                     <Image w='16' h='16' src={cardPostgresql} />
-                    
+
                     <Image w='16' h='16' src={cardNodeJs} />
                 </Flex>
 
