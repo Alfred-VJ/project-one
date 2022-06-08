@@ -36,11 +36,11 @@ const Footer = () => {
             </Flex>
             <Flex justifyContent="center">
                 <Box mt={5}>
-                    <Text color="white" >Mi camino de programador es un canal creado por José Alfredo Velázquez Juárez.</Text>
+                    <Text color="white" fontSize={{ md: "15px", base: "8px" }} >Mi camino de programador es un canal creado por José Alfredo Velázquez Juárez.</Text>
                     <Spacer />
-                    <Text color="white">Puedes seguirme en cualquiera de mis redes o mandarme un Correo al siguiente email:</Text>
+                    <Text color="white" fontSize={{ md: "15px", base: "8px" }} >Puedes seguirme en cualquiera de mis redes o mandarme un Correo al siguiente email:</Text>
                     <Spacer />
-                    <Text color="white" >micaminodeprogramador@gmail.com</Text>
+                    <Text color="white" fontSize={{ md: "15px", base: "8px" }} >micaminodeprogramador@gmail.com</Text>
                 </Box>
             </Flex>
         </Box>
