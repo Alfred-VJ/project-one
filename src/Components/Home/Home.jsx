@@ -28,9 +28,14 @@ const Home = () => {
             </Box>
 
 
+            <Box bg="brand.letOscur" w="100%" h="800px" display={{ md: "none", base: "grid" }} placeContent="center" >
+                <Image src={imgYo} h="350" borderRadius="5px" />
+            </Box>
+
+
             <Flex >
 
-                <Box bg="brand.letOscur" w="100%" h="800px" display="grid" placeContent="center" >
+                <Box bg="brand.letOscur" w="100%" h="800px" display={{ md: "grid", base: "none" }} placeContent="center" >
                     <Image src={imgYo} h="350" borderRadius="5px" />
                 </Box>
 
@@ -41,9 +46,9 @@ const Home = () => {
             </Flex>
 
 
-            <Box bg="brand.secundary" w="100%" pt={120} pb={250} display="grid" placeContent="center" >
+            <Box bg="brand.secundary" w="100%" pt={120} pb={250} display={{ md: "grid", base: "grow" }} placeContent="center" >
                 <Text fontSize='6xl' fontFamily='Shadows Into Light' color='white' letterSpacing="12px" pb={100} >Habilidades</Text>
-                <Grid templateColumns="repeat(4, 1fr)" gap={12} justifyContent="center" >
+                <Grid templateColumns={{ md: "repeat(4, 1fr)", }} gap={12} justifyContent="center" >
                     <GridItem w="250px" h="420px" borderRadius="10px"
                         boxShadow='dark-lg' rounded='md' bg='brand.letOscur'
                     >
@@ -140,25 +145,25 @@ const Home = () => {
             <Box bg="brand.letOscur" w="100%" pt={100} pb={300} display="grid" placeContent="center" >
 
                 <Flex placeContent="center" >
-                    <Image w='16' h='16' src={cardGit} />
+                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardGit} />
 
-                    <Image w='16' h='16' src={cardJs} />
+                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardJs} />
 
-                    <Image w='16' h='16' src={cardHtml} />
+                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardHtml} />
 
-                    <Image w='16' h='16' src={cardCss} />
+                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardCss} />
 
-                    <Image w='16' h='16' src={cardGitHub} />
+                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardGitHub} />
 
-                    <Image w='16' h='16' src={cardSequelize} />
+                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardSequelize} />
 
-                    <Image w='16' h='16' src={cardReact} />
+                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardReact} />
 
-                    <Image w='16' h='16' src={cardRedux} />
+                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardRedux} />
 
-                    <Image w='16' h='16' src={cardPostgresql} />
+                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardPostgresql} />
 
-                    <Image w='16' h='16' src={cardNodeJs} />
+                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardNodeJs} />
                 </Flex>
 
                 <Text mt='120px' color='brand.ND' fontFamily='Shadows Into Light' fontWeight='600' fontSize='38px' letterSpacing={3} >
