@@ -145,25 +145,25 @@ const Home = () => {
             <Box bg="brand.letOscur" w="100%" pt={100} pb={300} display="grid" placeContent="center" >
 
                 <Flex placeContent="center" >
-                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardGit} />
+                    <Image w={{ md: 16, base: 8 }} h={{ md: 16, base: 8 }} src={cardGit} />
 
-                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardJs} />
+                    <Image w={{ md: 16, base: 8 }} h={{ md: 16, base: 8 }} src={cardJs} />
 
-                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardHtml} />
+                    <Image w={{ md: 16, base: 8 }} h={{ md: 16, base: 8 }} src={cardHtml} />
 
-                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardCss} />
+                    <Image w={{ md: 16, base: 8 }} h={{ md: 16, base: 8 }} src={cardCss} />
 
-                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardGitHub} />
+                    <Image w={{ md: 16, base: 8 }} h={{ md: 16, base: 8 }} src={cardGitHub} />
 
-                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardSequelize} />
+                    <Image w={{ md: 16, base: 8 }} h={{ md: 16, base: 8 }} src={cardSequelize} />
 
-                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardReact} />
+                    <Image w={{ md: 16, base: 8 }} h={{ md: 16, base: 8 }} src={cardReact} />
 
-                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardRedux} />
+                    <Image w={{ md: 16, base: 8 }} h={{ md: 16, base: 8 }} src={cardRedux} />
 
-                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardPostgresql} />
+                    <Image w={{ md: 16, base: 8 }} h={{ md: 16, base: 8 }} src={cardPostgresql} />
 
-                    <Image w={{ md: 16, base: 10 }} h={{ md: 16, base: 10 }} src={cardNodeJs} />
+                    <Image w={{ md: 16, base: 8 }} h={{ md: 16, base: 8 }} src={cardNodeJs} />
                 </Flex>
 
                 <Text mt='120px' color='brand.ND' fontFamily='Shadows Into Light' fontWeight='600' fontSize='38px' letterSpacing={3} >
