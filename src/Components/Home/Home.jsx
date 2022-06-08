@@ -19,8 +19,8 @@ const Home = () => {
 
             <Box bg="brand.primary" w="100%" pt={200} pb={300} >
                 <Box >
-                    <Text fontSize="6xl" fontWeight={600} fontFamily='Shadows Into Light' color='brand.letOscur' letterSpacing='3px' noOfLines={1} >MI CAMINO DE PROGRAMADOR;</Text>
-                    <Image w={1000} ml="auto" mr="auto" mt="-150px" src={img} />
+                    <Text fontSize={{md:"6xl", base:"20px"}} fontWeight={600} fontFamily='Shadows Into Light' color='brand.letOscur' letterSpacing='3px' noOfLines={1} >MI CAMINO DE PROGRAMADOR;</Text>
+                    <Image w={1000} ml="auto" mr="auto" mt={{md:"-150px"}} src={img} />
                 </Box>
 
                 <Text fontFamily='Shadows Into Light' color='brand.letOscur' fontSize='50' >"El esfuerzo no sirve para nada si no crees en ti mismo".</Text>
